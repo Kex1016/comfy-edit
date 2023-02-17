@@ -41,7 +41,7 @@
   --user-buttons-spacing: 8px;
 
   /* Color - Default value : #096DC0 */
-  --user-buttons-color: #096dc0;
+  --user-buttons-color: var(--background-accent);
 
   /* ═══════『 ⭕ Roundness settings 』═══════
 *
@@ -67,57 +67,57 @@
   /* ═══════『 📜 Server/channel list 』═══════ */
 
   /* Mention - Default value : #F04747 */
-  --mention-color: #f04747;
+  --mention-color: #ff7b63;
 
   /* Unread - Default value : #7289DA */
-  --unread-color: #7289da;
+  --unread-color: #78aeed;
 
   /*  『 🔴 Mention colors in chat 』 */
 
   /* Bar on the right - Default value : #C66262 */
-  --mention-color-bar: #c66262;
+  --mention-color-bar: #ff7b63;
 
   /* Background - Default value : #C662621F */
-  --mention-color-background: #c662621f;
+  --mention-color-background: #ff7a631e;
 
   /* On hover - Default value : #C6626226 */
-  --mention-color-hover: #c6626226;
+  --mention-color-hover: #ff7a632f;
 
   /* ═══════『 💬 Chat buttons 』═══════ */
 
   /* Default value : #7289DA */
-  --chat-buttons: #7289da;
+  --chat-buttons: #78aeed;
 
   /* ═══════『 💬 SpotifyControls seek bar 』═══════
 *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
 
   /* Default value : #1EDC62 */
-  --spotify-color: #1edc62;
+  --spotify-color: #2ec27e;
 
   /* ═══════『 🟢 Status 』═══════ */
 
   /* Online - Default value : #43B581 */
-  --online: #43b581;
+  --online: #57e389;
 
   /* Idle - Default value : #FAA61A */
-  --iddle: #faa61a;
+  --iddle: #f6d32d;
 
   /* Do Not Disturb - Default value : #F04747 */
-  --dnd: #f04747;
+  --dnd: #e01b24;
 
   /* Offline - Default value : #747F8D */
-  --offline: #747f8d;
+  --offline: #77767b;
 
   /* Streaming - Default value : #593695 */
-  --streaming: #593695;
+  --streaming: #9141ac;
 
   /* ═══════『 🔰 User popout 』═══════ */
 
   /* Playing wave color */
-  --playing: #7289da;
+  --playing: #3584e4;
 
   /* Listening wave color */
-  --listening: #1db653;
+  --listening: #26a269;
 
   /* Role circle - Default value : 5px */
   --role-circle: 5px;
@@ -135,7 +135,7 @@
   --background-tertiary: #0d0d0d;
   --background-mobile-primary: #23283d;
   --background-mobile-secondary: #1e2233;
-  --channeltextarea-background: #191f2e;
+  --channeltextarea-background: var(--background-secondary);
   --background-accent: #78aeed;
   --background-message-hover: transparent;
   --background-modifier-hover: #00000010;
