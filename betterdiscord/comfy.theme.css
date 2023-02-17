@@ -142,14 +142,14 @@
   --background-modifier-active: #0000001a;
   --background-modifier-selected: #0000001f;
   --deprecated-card-bg: #12141f63;
-  --background-floating: #101320;
+  --background-floating: var(--background-secondary-alt);
   --deprecated-quickswitcher-input-background: #101320;
   --elevation-low: none;
   --scrollbar-auto-thumb: #121722;
   --scrollbar-auto-track: #191f2e;
   --scrollbar-thin-thumb: #141925;
-  --activity-card-background: #101320;
-  --input-background: #1e2233;
+  --activity-card-background: var(--background-secondary-alt);
+  --input-background: var(--background-secondary);
 }
 
 .theme-light {
