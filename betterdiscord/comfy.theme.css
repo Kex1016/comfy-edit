@@ -148,7 +148,7 @@
   --scrollbar-auto-thumb: #121722;
   --scrollbar-auto-track: #191f2e;
   --scrollbar-thin-thumb: #141925;
-  --activity-card-background: var(--background-secondary-alt);
+  --activity-card-background: var(--background-secondary);
   --input-background: var(--background-secondary);
 }
 
